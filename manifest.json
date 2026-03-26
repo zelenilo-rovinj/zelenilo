@@ -1,0 +1,44 @@
+{
+  "name": "Brinem za svoj grad — Zelenilo",
+  "short_name": "Zelenilo",
+  "description": "OJ Zelenilo, Komunalni Servis d.o.o. Rovinj — radni nalozi, arhiva, radnici, katastar",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#1a3a1a",
+  "background_color": "#fafdf8",
+  "lang": "hr",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Novi nalog",
+      "short_name": "Novi nalog",
+      "description": "Kreiraj novi radni nalog",
+      "url": "./index.html#nalozi",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Pregled stanja",
+      "url": "./index.html#dash",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
